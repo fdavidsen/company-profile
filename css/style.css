@@ -38,7 +38,12 @@ footer {
 }
 
 nav .brand-logo {
-	font-size: 1.75rem;
+	font-size: 1.5rem;
+}
+@media (min-width: 370px) {
+	nav .brand-logo {
+		font-size: 1.75rem;
+	}
 }
 @media (min-width: 443px) {
 	nav .brand-logo {
